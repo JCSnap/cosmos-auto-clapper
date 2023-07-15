@@ -15,3 +15,7 @@ run the following file
 ```
 python clap.py
 ```
+
+There is going to be a window popup with the "start" button, press the "start" button and make sure that your cosmos is your active window
+
+You can now go off for dinner while you clap for your boss 😎
