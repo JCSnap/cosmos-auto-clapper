@@ -1,4 +1,4 @@
-# cosmos-auto-clapper
+# Cosmos Auto Clapper
 
 A very oddly specific program that allows users to clap indefinitely on the app Cosmos , a remote workspace corporate app
 
@@ -90,7 +90,7 @@ There is going to be a window popup with the "start" button, press the "start" b
 
 You can now go off for dinner while you clap for your boss 😎
 
-# Read this if you want to click a clickable file instead of opening the app with the terminal
+## Read this if you want to click a clickable file instead of opening the app with the terminal
 
 ### For Mac
 
@@ -106,6 +106,8 @@ bash run.sh
 ```
 
 Remember to change the /path/to/your/cosmos-auto-clapper to the actual path where you cloned. For example: /Users/jcjustin/cosmos-auto-clapper if I cloned it into the home directory
+
+Once you are done, save it with any name you like. This will convert create an .app file that is clickable to run the program.
 
 If you are facing some error, you can try giving Automator full disk aceess in Settings under "privacy and security", you can also make sure that you have bash.
 
