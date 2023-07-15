@@ -19,10 +19,16 @@ For Mac:
 brew install python3
 ```
 
+Also install git if you do not have it.
+
+```
+brew install git
+```
+
 For Windows:
 Lookup online LOL im not sure
 
-Once you have python installed, type this into your terminal:
+Once you have python and git installed, type this into your terminal:
 
 ```
 git clone https://github.com/JCSnap/cosmos-auto-clapper
