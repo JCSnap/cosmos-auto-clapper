@@ -1,7 +1,44 @@
 # cosmos-auto-clapper
 
+## Read this section if you are not a technical person
+
+First open your terminal
+
+If you do not have python installed, type this into your terminal.
+For Mac:
+
+```
+brew install python3
+```
+
+For Windows:
+Lookup online LOL im not sure
+
+Once you have python installed, type this into your terminal:
+
+```
+git clone https://github.com/JCSnap/cosmos-auto-clapper
+```
+
+All the files will be downloaded in your home directory. If you want a specific directory, you can first cd into the directory you want by its path (~ represents the Home directory) by typing this in your terminal (optional)
+
+```
+cd ~/Downloads
+```
+
+Then clone using the command above
+
+# Using the program
+
+Once you have cloned the directory, go into the directory with the following command in your terminal:
+
+```
+cd cosmos-auto-clapper
+```
+
 ## For people who do not want to deal with installing dependencies
 
+Once you are in the directory,
 Run the following if you are using MAC:
 
 ```
@@ -16,10 +53,10 @@ Or Windows (Assuming you have WSL):
 
 Alternatively, you can install manually
 
-## Required dependency
+## For people who wants to manually download dependencies/have issues with running bash commands etc.
 
 ```
-pip install pyautogui
+pip3 install pyautogui
 ```
 
 ## How to use it
@@ -29,10 +66,10 @@ Install the required dependencies in your terminal
 run the following file
 
 ```
-python clap.py
+python3 clap.py
 ```
 
-Alternatively, you can also do pip3 install pyautogui and python3 clap.py
+Alternatively (or if you failed), you can also do pip install pyautogui and python clap.py
 
 There is going to be a window popup with the "start" button, press the "start" button and make sure that your cosmos is your active window by clicking on your Cosmos window
 
