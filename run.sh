@@ -3,10 +3,26 @@
 # Define your dependency
 DEPENDENCY="pyautogui"
 
+# Function to check if a command exists
+command_exists () {
+    type "$1" &> /dev/null ;
+}
+
 # Function to install the dependency and run the script with given pip and python commands
 run_with_python () {
     PIP_CMD=$1
     PYTHON_CMD=$2
+
+    # Check if the commands are installed
+    if ! command_exists $PIP_CMD; then
+        echo "Error: $PIP_CMD not found. Please install it and try again."
+        exit 1
+    fi
+
+    if ! command_exists $PYTHON_CMD; then
+        echo "Error: $PYTHON_CMD not found. Please install it and try again."
+        exit 1
+    fi
 
     # Check if the dependency is installed
     $PIP_CMD show $DEPENDENCY > /dev/null 2>&1
