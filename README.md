@@ -13,7 +13,8 @@ Annoy your coworkers
 First open your terminal
 
 If you do not have python installed, type this into your terminal.
-For Mac:
+
+### For Mac
 
 ```
 brew install python3
@@ -25,7 +26,8 @@ Also install git if you do not have it.
 brew install git
 ```
 
-For Windows:
+### For Windows
+
 Lookup online LOL im not sure
 
 Once you have python and git installed, type this into your terminal:
@@ -53,13 +55,14 @@ cd cosmos-auto-clapper
 ## For people who do not want to deal with installing dependencies
 
 Once you are in the directory,
-Run the following if you are using MAC:
+
+### For Mac
 
 ```
 bash run.sh
 ```
 
-Or Windows (Assuming you have WSL):
+### For Windows (Assuming you have WSL)
 
 ```
 ./run.sh
@@ -69,13 +72,11 @@ Alternatively, you can install manually
 
 ## For people who wants to manually download dependencies/have issues with running bash commands etc.
 
+Install the required dependencies in your terminal
+
 ```
 pip3 install pyautogui
 ```
-
-## How to use it
-
-Install the required dependencies in your terminal
 
 run the following file
 
@@ -88,3 +89,33 @@ Alternatively (or if you failed), you can also do pip install pyautogui and pyth
 There is going to be a window popup with the "start" button, press the "start" button and make sure that your cosmos is your active window by clicking on your Cosmos window
 
 You can now go off for dinner while you clap for your boss 😎
+
+# Read this if you want to click a clickable file instead of opening the app with the terminal
+
+### For Mac
+
+Open Automator.
+Choose Application when it prompts to choose a document type.
+In the Actions library, select Utilities and drag Run Shell Script over to the workflow pane.
+
+Type the following:
+
+```
+cd /path/to/your/cosmos-auto-clapper
+bash run.sh
+```
+
+Remember to change the /path/to/your/cosmos-auto-clapper to the actual path where you cloned. For example: /Users/jcjustin/cosmos-auto-clapper if I cloned it into the home directory
+
+If you are facing some error, you can try giving Automator full disk aceess in Settings under "privacy and security", you can also make sure that you have bash.
+
+### For Windows
+
+You can create a batch file that runs your Python script. This will be a .bat file that you can double-click to run.
+
+Here's an example:
+
+Open Notepad.
+Type the following command: python C:\path\to\your\script.py.
+Save the file with a .bat extension.
+Now you can double-click this .bat file to run your Python script.
