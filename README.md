@@ -1,5 +1,21 @@
 # cosmos-auto-clapper
 
+## For people who do not want to deal with installing dependencies
+
+Run the following if you are using MAC:
+
+```
+bash run.sh
+```
+
+Or Windows (Assuming you have WSL):
+
+```
+./run.sh
+```
+
+Alternatively, you can install manually
+
 ## Required dependency
 
 ```
