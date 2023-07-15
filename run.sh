@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/.bash_profile
+
 # Define your dependency
 DEPENDENCY="pyautogui"
 
