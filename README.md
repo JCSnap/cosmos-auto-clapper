@@ -3,7 +3,9 @@
 A very oddly specific program that allows users to clap indefinitely on the app Cosmos , a remote workspace corporate app
 
 Use cases:
+
 Impress your boss by clapping indefinitely when your boss finish taking while you go off for dinner
+
 Annoy your coworkers
 
 ## Read this section if you are not a technical person
