@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# You might not have bash if you are using Windows.
 source ~/.bash_profile
 
 # Define your dependency
