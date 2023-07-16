@@ -58,6 +58,11 @@ def set_key(key):
     # If a settings window is currently open, hide it
     if 'settings_window' in globals():
         settings_window.withdraw()
+    # If the loop is currently running, stop it
+    if 'loop_id' in globals():
+        root.after_cancel(loop_id)
+        del globals()['loop_id']
+        toggle_button.config(text='Start')
 
 root = tk.Tk()
 root.title('Press Start to start clapping')
