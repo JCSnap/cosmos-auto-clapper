@@ -90,6 +90,8 @@ There is going to be a window popup with the "start" button, press the "start" b
 
 You can now go off for dinner while you clap for your boss 😎
 
+You can also click on the settings to use other emojis, or throw snowballs!
+
 ## Read this if you want to click a clickable file instead of opening the app with the terminal
 
 ### For Mac
